@@ -17,7 +17,7 @@ Resistor R1 is there to provide a protection to the delicate gate of the JFET an
 Raising the value of R1 with the purpose of reducing sensitivity is useless though, because the gate eats almost no current so any voltage drop would require an unreasonably high value of R1.
 It is worth trying any JFET one may have in his drawer: the 2N4416A if a very good one and I happen to have a few, but any other should do: don’t be afraid of experimenting, success should come anyways. The connection to the case of the JFET, if present, should go to ground.
 
-![Closeup - note that Gate of JFET is not soldered to the breadboard but is bent above it and soldered directly to R1](/Images/Gate_connection.jpg)
+![Closeup - note that Gate of JFET is not soldered to the breadboard but is bent above it and soldered directly to R1](/Images/Gate%20connection.jpg)
 
 See the close-up with the detail around the gate of the JFET.
 It is very important to note that the gate of the JFET is not soldered through the breadboard, rather it is bent above it and R1 soldered directly to the flying gate! This is necessary as solder paste or even poor PCB might provide to low a path to its Source or, even worse, its Drain.
